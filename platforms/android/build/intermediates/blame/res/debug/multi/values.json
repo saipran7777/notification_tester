@@ -1,0 +1,158 @@
+[
+    {
+        "outputFile": "/home/keerthana/pushNotification/platforms/android/build/intermediates/res/merged/debug/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 422,
+                    "endColumn": 66,
+                    "endOffset": 484
+                },
+                "from": {
+                    "file": "/home/keerthana/pushNotification/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 489,
+                    "endColumn": 63,
+                    "endOffset": 548
+                },
+                "from": {
+                    "file": "/home/keerthana/pushNotification/platforms/android/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 553,
+                    "endColumn": 54,
+                    "endOffset": 603
+                },
+                "from": {
+                    "file": "/home/keerthana/pushNotification/platforms/android/res/values/strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 54,
+                        "endOffset": 105
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 608,
+                    "endColumn": 218,
+                    "endOffset": 822
+                },
+                "from": {
+                    "file": "/home/keerthana/pushNotification/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 827,
+                    "endColumn": 143,
+                    "endOffset": 966
+                },
+                "from": {
+                    "file": "/home/keerthana/pushNotification/platforms/android/build/generated/res/google-services/debug/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 971,
+                    "endColumn": 112,
+                    "endOffset": 1079
+                },
+                "from": {
+                    "file": "/home/keerthana/pushNotification/platforms/android/build/generated/res/google-services/debug/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 1084,
+                    "endColumn": 81,
+                    "endOffset": 1161
+                },
+                "from": {
+                    "file": "/home/keerthana/pushNotification/platforms/android/build/generated/res/google-services/debug/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 1166,
+                    "endColumn": 103,
+                    "endOffset": 1265
+                },
+                "from": {
+                    "file": "/home/keerthana/pushNotification/platforms/android/build/generated/res/google-services/debug/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 1270,
+                    "endColumn": 102,
+                    "endOffset": 1368
+                },
+                "from": {
+                    "file": "/home/keerthana/pushNotification/platforms/android/build/generated/res/google-services/debug/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1373,
+                    "endColumn": 119,
+                    "endOffset": 1488
+                },
+                "from": {
+                    "file": "/home/keerthana/pushNotification/platforms/android/build/generated/res/google-services/debug/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1493,
+                    "endColumn": 101,
+                    "endOffset": 1590
+                },
+                "from": {
+                    "file": "/home/keerthana/pushNotification/platforms/android/build/generated/res/google-services/debug/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1595,
+                    "endColumn": 58,
+                    "endOffset": 1649
+                },
+                "from": {
+                    "file": "/home/keerthana/pushNotification/platforms/android/res/values/strings.xml"
+                }
+            }
+        ]
+    }
+]

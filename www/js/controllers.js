@@ -29,11 +29,8 @@ angular.module('starter.controllers', [])
     $scope.modal.show();
   };
 
-  // Perform the login action when the user submits the login form
-  $scope.doLogin = function() {
-    console.log('Doing login', $scope.loginData);
-
-    var link = 'https://fcm.googleapis.com/fcm/send';
+  $scope.send = function() {
+        var link = 'https://fcm.googleapis.com/fcm/send';
     xhr = new XMLHttpRequest();
     xhr.open("POST", link, true);
     xhr.setRequestHeader("Content-type", "application/json");
@@ -64,7 +61,7 @@ angular.module('starter.controllers', [])
   //           });
 
     var data = JSON.stringify({
-      "to": "/topics/all",
+      "to": "/topics/testing",
        "notification": {
          "title": "Welcome Message",
          "body": "This is a Firebase Cloud Messaging Topic Message!"
@@ -79,6 +76,19 @@ angular.module('starter.controllers', [])
     $timeout(function() {
       $scope.closeLogin();
     }, 1000);
+  };
+
+  // Perform the login action when the user submits the login form
+  $scope.subscribe = function() {
+    //console.log('Doing login', $scope.loginData);
+
+    FCMPlugin.subscribeToTopic('testing');
+
+
+  };
+
+  $scope.unsubscribe = function() {
+    FCMPlugin.unsubscribeFromTopic('testing');
   };
 })
 
